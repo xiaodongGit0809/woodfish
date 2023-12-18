@@ -13,11 +13,9 @@ module.exports = {
         drop_debugger: true,
       },
     },
-    rollupOptions: {
-      output: {
-        chunkFileNames: 'js/[name]-[hash].js',
-        entryFileNames: 'js/[name]-[hash].js',
-        assetFileNames: '[ext]/[name]-[hash].[ext]',
+    resolve: {
+      alias: {
+        Src: resolve(__dirname, 'src'),
       },
     },
   },
