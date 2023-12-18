@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 module.exports = {
-  base: '.',
+  base: './',
   plugins: [],
   resolve: {
     alias: {
