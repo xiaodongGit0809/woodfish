@@ -1,6 +1,6 @@
 import { resolve } from 'path';
 module.exports = {
-  base: '/woodfish/',
+  base: '.',
   plugins: [],
   resolve: {
     alias: {
