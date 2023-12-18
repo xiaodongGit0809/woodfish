@@ -1,7 +1,6 @@
-import vue from '@vitejs/plugin-vue';
 module.exports = {
   base: '.',
-  plugins: [vue()],
+  plugins: [],
   build: {
     outDir: 'dist',
     assetsDir: 'assets',
